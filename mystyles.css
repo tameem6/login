@@ -1,10 +1,19 @@
 body{
     background-color:tomato;
 }
+
 .wordpr{
+    text-decoration: none;
+    background:url('leftarr.svg') no-repeat left center;
     position:relative;
     top:20px;
     left:20px;
+    padding-left: 22px;
+}
+a:link, a:visited{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    text-decoration:none;
 }
 div.cent{
     margin: 300px 500px;
@@ -15,3 +24,11 @@ div.cent{
     font-family:Helvetica,sans-serif;
     font-size:350%;
 }
+.button1{
+    padding: 25px;
+    height: 40px;
+    width:225px;
+    border: 2px solid white;
+    background-color: tomato;
+}
+.button1
