@@ -1,10 +1,11 @@
 body{
-    background-color:tomato;
+    background-color:rgb(255, 99, 71);
 }
 
 .wordpr{
     text-decoration: none;
-    background:url('leftarr.svg') no-repeat left center;
+    background:url('leftarr.png') no-repeat left center;
+    background-size:18px;
     position:relative;
     top:20px;
     left:20px;
@@ -24,11 +25,40 @@ div.cent{
     font-family:Helvetica,sans-serif;
     font-size:350%;
 }
+
+.email{
+  background:url('user.png') no-repeat left;
+  background-size:23px;
+}
+.pass{
+    background:url('lock.png') no-repeat left;
+    background-size: 23px;
+}
 .button1{
+    color:white;
     padding: 25px;
     height: 40px;
     width:225px;
-    border: 2px solid white;
-    background-color: tomato;
+    border: 1px solid white;
+    background-color: rgb(255, 99, 71);
 }
-.button1
+input[type=text]:focus{
+  background-color:rgb(255,120,120);
+}
+input[type=password]:focus{
+  background-color:rgb(255,120,120);
+}
+input[type=submit] {
+  font-family:monospace;
+  height: 40px;
+  width:200px;
+  background-color: white;
+  color:rgb(255, 99, 71);
+  border:none;
+  border-radius:5px;
+}
+input[type=submit]:hover {
+  background-color: rgb(255, 99, 71);
+  color:white;
+  border: solid 1px white;
+}
