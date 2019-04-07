@@ -4,7 +4,7 @@ body{
 
 .wordpr{
     text-decoration: none;
-    background:url('leftarr.png') no-repeat left center;
+    background:url('icons/leftarr.png') no-repeat left center;
     background-size:18px;
     position:relative;
     top:20px;
@@ -27,11 +27,11 @@ div.cent{
 }
 
 .email{
-  background:url('user.png') no-repeat left;
+  background:url('icons/user.png') no-repeat left;
   background-size:23px;
 }
 .pass{
-    background:url('lock.png') no-repeat left;
+    background:url('icons/lock.png') no-repeat left;
     background-size: 23px;
 }
 .button1{
