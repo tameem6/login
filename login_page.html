@@ -1,7 +1,8 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Login Page</title>
-        <link rel="stylesheet" type="text/css" href="mystyles.css">
+        <link rel="stylesheet" type="text/css" href="/static/mystyles.css">
     </head>
     <body>
             <a href="https://wordpress.com" class="wordpr">Back to wordpress</a>
@@ -12,10 +13,10 @@
                     <text class="circ" fill="white"  x="52%" y="70%" text-anchor="middle">D</text>
                     </g>
                 </svg>
-                <form id="ff" method="POST">
+                <form id="ff" method="POST" action="/profile">
                     <br>
-                    <input type="text" name="email" title="Enter email here" class="button1 email"><br>
-                    <input type="password" name="password" title="Enter password here" class="button1 pass"><br><br>
+                    <input type="text" name="username" placeholder="username" title="Enter email here" class="button1 email"><br>
+                    <input type="password" name="password" placeholder="Password" title="Enter password here" class="button1 pass"><br><br>
                     <input type="submit" value="Log In" class="button2"><br><br>
                     <a href="#" class="lyp">Lost your password?</a>
                 </form>

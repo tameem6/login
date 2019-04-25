@@ -1,9 +1,11 @@
 body{
     background-color:rgb(255, 99, 71);
+    color:white;
 }
 
 .wordpr{
     text-decoration: none;
+    text-align: left!important;
     background:url('icons/leftarr.png') no-repeat left center;
     background-size:18px;
     position:relative;
