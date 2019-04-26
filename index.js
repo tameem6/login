@@ -5,38 +5,6 @@ var jwt = require('jsonwebtoken');
 var cors = require('cors');
 app.use('/static', express.static('static'));
 app.use(cors());
-
-var obj = [{
-    "name": "Raj",
-    "age": "23",
-    "username" : "raj10",
-    "password" : "wxyz"
-},
-{
-    "name" : "Rahul",
-    "age" : "27",
-    "username" : "rahulk",
-    "password" : "pass321"
-},
-{
-    "name" : "Anjali",
-    "age" : "25",
-    "username" : "anjsharma",
-    "password" : "lol"
-},
-{
-    "name" : "Shreya",
-    "age" : "24",
-    "username" : "shreyakl",
-    "password" : "abcd1234"
-},
-{
-    "name" : "Tameem",
-    "age" : "23",
-    "username" : "tameem6",
-    "password" : "hmm"
-}
-]
 app.use(bodyParser.json());
 var urlEncodedParser = bodyParser.urlencoded({extended : false});
 
