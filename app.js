@@ -57,7 +57,7 @@ app.post('/profile', urlEncodedParser, function(req,res){
         }
         else if(obj[i].username===req.body.username && obj[i].password != req.body.password)
         {
-            res.send("Wrong password");
+            res.send("Wrong password. Go back and try again");
             flag=1;
             break;
         }
