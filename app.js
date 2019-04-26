@@ -37,7 +37,7 @@ var obj = [{
 app.use(bodyParser.json());
 var urlEncodedParser = bodyParser.urlencoded({extended : true});
 
-app.listen(8080);
+app.listen(process.env.PORT || 8080);
 console.log("Server Running");
 app.get('/',function(req,res){
    
