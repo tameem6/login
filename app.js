@@ -38,7 +38,7 @@ var obj = [{
 }
 ]
 app.use(bodyParser.json());
-var urlEncodedParser = bodyParser.urlencoded({extended : false});
+var urlEncodedParser = bodyParser.urlencoded({extended : true});
 
 app.listen(process.env.PORT || 8080);
 
@@ -58,7 +58,7 @@ app.post('/profile', urlEncodedParser, (req,res)=> {
             res.send("\n" + info);
             flag=1;
             break;
-            
+
         }
         else if(obj[i].username===req.body.username && obj[i].password != req.body.password)
         {
@@ -76,4 +76,4 @@ app.get('/api/:token',(req,res)=>{
       res.send('Token Expired');
     }
     res.send(decoded);
-  });  
+  });

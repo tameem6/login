@@ -1,4 +1,4 @@
-var express= require('express');
+/* var express= require('express');
 var bodyParser = require('body-parser');
 var app = express();
 var jwt = require('jsonwebtoken');
@@ -26,7 +26,7 @@ app.post('/profile', urlEncodedParser, (req,res)=> {
             res.send("\n" + info);
             flag=1;
             break;
-            
+
         }
         else if(obj[i].username===req.body.username && obj[i].password != req.body.password)
         {
@@ -44,4 +44,4 @@ app.get('/api/:token',(req,res)=>{
       res.send('Token Expired');
     }
     res.send(decoded);
-  });  
+  });  */

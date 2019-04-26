@@ -23,6 +23,18 @@ div.cent{
     text-align: center;
 
 }
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #ccc;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #ccc;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #ccc;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #ccc;
+}
 .circ{
     font-family:Helvetica,sans-serif;
     font-size:350%;
@@ -45,10 +57,12 @@ div.cent{
     background-color: rgb(255, 99, 71);
 }
 input[type=text]:focus{
-  background-color:rgb(255,120,120);
+  background-color:rgb(255,110,83);
+  outline: none;
 }
 input[type=password]:focus{
-  background-color:rgb(255,120,120);
+  background-color:rgb(255,110,83);
+  outline: none;
 }
 input[type=submit] {
   font-family:monospace;
